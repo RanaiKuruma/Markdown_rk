@@ -1,0 +1,98 @@
+Bold 
+**Ranai**
+
+Italics 
+*Ranai*
+
+Strikethrough 
+~~Ranai~~ 
+
+Unordered Lists 
+- item1 
+- item2 
+	- sub item 1 
+	- sum item 2 
+	
+Ordered Lists 
+1. Item1 
+2. Item2 
+3. Item 3 
+
+Overview of progress 
+- [ ] item1 incomplete 
+- [x] item2 complete 
+- [x] item 
+
+Inserting Links 
+[Youtube](https://www.youtube.com/) 
+
+Inserting Images 
+![Image](www.xyx.com) 
+
+Codeblocks and Tables 
+
+Tables 
+Use colon for alignments 
+| column1 | column 2 | 
+| :--- | ---: | 
+| row 1a | row 1b | 
+
+Codeblocks 
+This is `print` 
+
+```` 
+print()
+````
+
+Highlighting the syntax 
+
+```` py 
+print()
+```` 
+
+Adding and removing changes 
+
+method 1 
+
+Before 
+
+ ```` py 
+ array_np = np.array() 
+```` 
+
+After 
+
+
+```` py 
+array_np = np.array{}
+```` 
+
+method 2 
+^-^ for removing line 
+^+^ for adding line 
+
+```` diff 
+- array_np = np.array{} 
++ array_np = np.array[]
+```` 
+
+Quotes 
+> I have idea 1 and ??? idea 2 
+>  I have idea 1  
+
+I agree with this 
+
+> Also idea 2 
+
+I do not agree with this 
+
+Closing an issue 
+
+closes #39707
+fixes #39707
+
+
+
+
+
+
